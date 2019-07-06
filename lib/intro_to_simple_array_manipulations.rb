@@ -39,9 +39,10 @@ def using_flatten(array)
 end
 
 def using_delete(array, element)
-  array.include(element).delete 
+  index = array.include(element)
+  array.delete(index)
 end
 
 def using_delete_at(array, element)
-  array.index(element).delete
+  array.index(element)
 end
