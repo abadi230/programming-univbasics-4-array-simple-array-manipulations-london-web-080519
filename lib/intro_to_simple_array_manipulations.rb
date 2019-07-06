@@ -41,3 +41,6 @@ end
 def using_delete(array, element)
   array.include(element).delete 
 end
+
+def using_delete_at(array, index)
+  array.index()
